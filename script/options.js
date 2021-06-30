@@ -67,7 +67,7 @@ function buildWatcher() {
 
 function restore_options() {
   chrome.storage.sync.get({
-    lang: 'zh-tw',
+    lang: 'zh-TW',
     auto: false,
     level: 1,
     serverUrl: 'http://localhost:4000',
